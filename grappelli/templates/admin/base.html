@@ -181,6 +181,7 @@
 
             <!-- CONTENT-CONTAINER -->
             <div id="grp-content-container">
+                {% block custom_sidebar %}{% endblock %}
                 {% block content %}
                     {{ content }}
                     {% block filters %}{% endblock %}
